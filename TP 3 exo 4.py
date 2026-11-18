@@ -11,6 +11,7 @@ while N!=R:
         print("La veleur est plus grande")
         C = C+1
         N = int(input("Veuillez saisir un nombre : "))
+        print(C)
     else:
         N = int(input("Veuillez saisir un nombre : "))
         print("Vous avez réussi la valeur est ", R ,"Vous avez jouer ", C ,"fois")
