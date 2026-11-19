@@ -7,7 +7,7 @@ for i in range (1,NombreNote+1):
     note = float(resu[0])
     coef = float(resu[1])
     print(note, coef)
-moyenne = (note*coef)//sommeNote
+    SommeNote += note*coef
 if (moyenne > 10) & (note >8):
     print("Vous avez réussi avec une moyenne de : ", moyenne)
 else:
